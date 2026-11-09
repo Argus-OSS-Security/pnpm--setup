@@ -1,10 +1,11 @@
 name: Update Dependencies
 
-on:
-  schedule:
-    - cron: '0 4 * * 1' # Mondays, 04:00 UTC
-  workflow_dispatch: {}
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   schedule:
+#     - cron: '0 4 * * 1' # Mondays, 04:00 UTC
+#   workflow_dispatch: {}
+# 
 permissions:
   contents: write
   pull-requests: write

@@ -1,12 +1,13 @@
 name: Test Action
 
-on:
-  pull_request:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#   push:
+#     branches:
+#       - main
+#   workflow_dispatch:
+# 
 permissions:
   contents: read
 
